@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--
+    VARIANT = "DX9"
+    
+    RUNTIME_DEPENDENCIES = "['T7RunnerEnginePluginDX9']"
+    SOURCE_LEVEL = "PUBLIC"
+    REQUIRED_HAVOK_PRODUCTS = "VISION"
+  -->
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|win32">
+      <Configuration>Debug</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Dev|win32">
+      <Configuration>Dev</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E39A0EDD-1B87-4495-A03B-D8F24FDDB56A}</ProjectGuid>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Keyword>Application</Keyword>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectName>T7RunnerAppDX9</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <Import Project="$(VISION_SDK)\Build\Vision\PropertySheets\ApplicationDX9_win32_vs2010_anarchyDebug.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Dev|win32'">
+    <Import Project="$(VISION_SDK)\Build\Vision\PropertySheets\ApplicationDX9_win32_vs2010_anarchyDev.props" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+    <CharacterSet>Unicode</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <CLRSupport>false</CLRSupport>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dev|win32'" Label="Configuration">
+    <CharacterSet>Unicode</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <CLRSupport>false</CLRSupport>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  <PropertyGroup>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.exe</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Dev|win32'">.exe</TargetExt>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">../../Obj/win32_vs2010/Debug/T7RunnerAppDX9\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">../../Bin/win32_vs2010/Debug/DX9\</OutDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">T7RunnerApp</TargetName>
+    <OutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Dev|win32'">../../Obj/win32_vs2010/Dev/T7RunnerAppDX9\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Dev|win32'">../../Bin/win32_vs2010/Dev/DX9\</OutDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Dev|win32'">T7RunnerApp</TargetName>
+    <OutputFile Condition="'$(Configuration)|$(Platform)'=='Dev|win32'">$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Dev|win32'">true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <Link>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y /D /C "$(VISION_SDK)\Bin\win32_vs2010_anarchy\debug\DX9\fmodexL.dll" "$(TargetDir)"
+xcopy /Y /D /C "$(VISION_SDK)\Bin\win32_vs2010_anarchy\debug\DX9\fmod_event_netL.dll" "$(TargetDir)"
+xcopy /Y /D /C "$(VISION_SDK)\Bin\win32_vs2010_anarchy\debug\DX9\lua100D.dll" "$(TargetDir)"
+xcopy /Y /D /C "$(VISION_SDK)\Bin\win32_vs2010_anarchy\debug\DX9\vHavok.vPluginD" "$(TargetDir)"
+xcopy /Y /D /C "$(VISION_SDK)\Bin\win32_vs2010_anarchy\debug\DX9\vHavokBehavior.vPluginD" "$(TargetDir)"
+xcopy /Y /D /C "$(VISION_SDK)\Bin\win32_vs2010_anarchy\debug\DX9\VisionEnginePlugin.vPluginD" "$(TargetDir)"
+xcopy /Y /D /C "$(VISION_SDK)\Bin\win32_vs2010_anarchy\debug\DX9\vFmodEnginePlugin.vPluginD" "$(TargetDir)"
+xcopy /Y /D /C "$(VISION_SDK)\Bin\win32_vs2010_anarchy\debug\DX9\BaseD.dll" "$(TargetDir)"
+xcopy /Y /D /C "$(VISION_SDK)\Bin\win32_vs2010_anarchy\debug\DX9\BaseUID.dll" "$(TargetDir)"
+xcopy /Y /D /C "$(VISION_SDK)\Bin\win32_vs2010_anarchy\debug\DX9\VisionD.dll" "$(TargetDir)"
+xcopy /Y /D /C "$(VISION_SDK)\Bin\win32_vs2010_anarchy\debug\DX9\VisionAppD.dll" "$(TargetDir)"
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Dev|win32'">
+    <Link>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y /D /C "$(VISION_SDK)\Bin\win32_vs2010_anarchy\dev\DX9\fmodex.dll" "$(TargetDir)"
+xcopy /Y /D /C "$(VISION_SDK)\Bin\win32_vs2010_anarchy\dev\DX9\fmod_event_net.dll" "$(TargetDir)"
+xcopy /Y /D /C "$(VISION_SDK)\Bin\win32_vs2010_anarchy\dev\DX9\lua100.dll" "$(TargetDir)"
+xcopy /Y /D /C "$(VISION_SDK)\Bin\win32_vs2010_anarchy\dev\DX9\vHavok.vPlugin" "$(TargetDir)"
+xcopy /Y /D /C "$(VISION_SDK)\Bin\win32_vs2010_anarchy\dev\DX9\vHavokBehavior.vPlugin" "$(TargetDir)"
+xcopy /Y /D /C "$(VISION_SDK)\Bin\win32_vs2010_anarchy\dev\DX9\VisionEnginePlugin.vPlugin" "$(TargetDir)"
+xcopy /Y /D /C "$(VISION_SDK)\Bin\win32_vs2010_anarchy\dev\DX9\vFmodEnginePlugin.vPlugin" "$(TargetDir)"
+xcopy /Y /D /C "$(VISION_SDK)\Bin\win32_vs2010_anarchy\dev\DX9\Base.dll" "$(TargetDir)"
+xcopy /Y /D /C "$(VISION_SDK)\Bin\win32_vs2010_anarchy\dev\DX9\BaseUI.dll" "$(TargetDir)"
+xcopy /Y /D /C "$(VISION_SDK)\Bin\win32_vs2010_anarchy\dev\DX9\Vision.dll" "$(TargetDir)"
+xcopy /Y /D /C "$(VISION_SDK)\Bin\win32_vs2010_anarchy\dev\DX9\VisionApp.dll" "$(TargetDir)"
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <DeploymentContent>False</DeploymentContent>
+    </ClCompile>
+    <ClInclude Include="T7RunnerAppPCH.h">
+      <DeploymentContent>False</DeploymentContent>
+    </ClInclude>
+    <ClCompile Include="T7RunnerAppPCH.cpp">
+      <DeploymentContent>False</DeploymentContent>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn>T7RunnerAppDX9_CleanReflections;$(CleanDependsOn)</CleanDependsOn>
+  </PropertyGroup>
+  <Target Name="T7RunnerAppDX9_CleanReflections">
+    <Delete Files="$(MSBuildProjectDirectory)\reflectionSettings.cache;$(MSBuildProjectDirectory)\reflections.db" />
+  </Target>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisInputAssembly>$(OutputFile)</CodeAnalysisInputAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dev|win32'">
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisInputAssembly>$(OutputFile)</CodeAnalysisInputAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+  </PropertyGroup>
+</Project>

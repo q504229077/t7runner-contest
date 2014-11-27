@@ -1,0 +1,13 @@
+*.log
+*.sdf
+*.suo
+*.ipch
+*.user
+*.deploy
+/Source/T7RunnerApp/AndroidTemp
+/Bin
+/ipch
+/Lib
+/Obj
+/Assets/AssetMgmt_data/thumbnails
+/Assets/AssetMgmt_data/transformed

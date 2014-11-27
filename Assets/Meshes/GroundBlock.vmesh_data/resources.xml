@@ -1,0 +1,10 @@
+<root>
+    <Resources Version="1" Count="6" PathType="Project">
+        <Resource Manager="FILE" Filename="Meshes/GroundBlock.vmesh_data\materials.xml" OwnerRes="5" Size="884" />
+        <Resource Manager="EffectLibs" Filename="Shaders\MobileShadersFakeSpecular.ShaderLib" Size="2277312" />
+        <Resource Manager="Textures" Filename="Textures\EnvSpecular.dds" CustomInt="3,0" Size="393216" />
+        <Resource Manager="Textures" Filename="Textures\GCCY_004.dds" CustomInt="1,64" Size="344064" />
+        <Resource Manager="Textures" Filename="noise_Normal.dds" CustomInt="1,0" Size="262144" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="Meshes/GroundBlock.vmesh" CustomInt="1,1" Size="56" />
+    </Resources>
+</root>

@@ -1,0 +1,18 @@
+<root>
+    <Resources Version="1" Count="14" PathType="Project">
+        <Resource Manager="FILE" Filename="Models/EnemyRider.model_data\materials.xml" OwnerRes="12" Size="2701" />
+        <Resource Manager="EffectLibs" Filename="Shaders\MobileShadersFakeSpecular.ShaderLib" Size="2277312" />
+        <Resource Manager="Textures" Filename="Textures\EnvSpecular.dds" CustomInt="3,0" Size="393216" />
+        <Resource Manager="Textures" Filename="Textures\Player03.dds" CustomInt="1,64" Size="1392640" />
+        <Resource Manager="Textures" Filename="Textures\Player03_f.dds" CustomInt="1,64" Size="348160" />
+        <Resource Manager="Textures" Filename="Textures\Player03_f_n.dds" CustomInt="1,0" Size="348160" />
+        <Resource Manager="Textures" Filename="Textures\Player03_f_s.dds" CustomInt="1,0" Size="348160" />
+        <Resource Manager="Textures" Filename="Textures\Player03_h.dds" CustomInt="1,64" Size="348160" />
+        <Resource Manager="Textures" Filename="Textures\Player03_h_n.dds" CustomInt="1,0" Size="348160" />
+        <Resource Manager="Textures" Filename="Textures\Player03_h_s.dds" CustomInt="1,0" Size="348160" />
+        <Resource Manager="Textures" Filename="Textures\Player03_n.dds" CustomInt="1,0" Size="1392640" />
+        <Resource Manager="Textures" Filename="Textures\Player03_s.dds" CustomInt="1,0" Size="1392640" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="Models/EnemyRider.model" CustomInt="1,2" Size="168" />
+        <Resource Manager="EffectLibs" Filename="Shaders\vMaterial.ShaderLib" Size="392352" />
+    </Resources>
+</root>

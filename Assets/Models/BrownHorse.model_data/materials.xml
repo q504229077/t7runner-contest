@@ -1,0 +1,7 @@
+<root>
+    <Materials override="TRUE">
+        <Material name="Horse" userflags="0" diffuse="..\Textures\horse.tga" normalmap="..\Textures\Horse_n.tga" specularmap="..\Textures\Horse_s.TGA" Lighting="LightGrid" pass="Auto" transparency="opaque" doublesided="FALSE" depthwrite="TRUE" clamp="none" datadirectoryrelative="FALSE" zbias="0,0,0" specmul="0" specexp="2" parallaxscale="-0.03" parallaxbias="-0.015" ambient="150,150,150,0" sortingkey="0" alphathreshold="-1" lightmapsize="128,128" lightmapgran="0" lightmapID="-1">
+            <Shader library="..\Shaders\MobileShadersFakeSpecular.ShaderLib" effect="FakeSpecularFog" paramstring="CullMode=back;DepthWrite=true;MaterialParams=0,2,-0.03,-0.015;AlphaThreshold=0.25;MaterialAmbient=0.588235,0.588235,0.588235;SpecularColor=1,1,1,1;Cubemap=Textures/EnvSpecular.dds;VertexLighting=False;DynamicLightNormalMapping=True;" />
+        </Material>
+    </Materials>
+</root>

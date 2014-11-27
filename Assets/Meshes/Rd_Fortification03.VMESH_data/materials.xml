@@ -1,0 +1,7 @@
+<root>
+    <Materials override="TRUE">
+        <Material name="fortification03" diffuse="..\Textures\Fortification_c.dds" normalmap="..\Textures\Fortification_n.dds" transparency="opaque" doublesided="FALSE" specmul="0" specexp="2" parallaxscale="0" parallaxbias="-0.01" lightmapsize="256,256" lightmapID="-1" ambient="0,0,0,255" Lighting="LightGrid" alphathreshold="0.25" lightmapgran="0" sortingkey="0" depthwrite="TRUE" zbias="0,0,0" mobileflags="0" pass="Auto" userflags="0" clamp="none" datadirectoryrelative="FALSE">
+            <Shader library="..\Shaders\MobileShadersFakeSpecular.ShaderLib" effect="FakeSpecularFog" paramstring="CullMode=back;DepthWrite=true;MaterialParams=0,2,0,-0.01;AlphaThreshold=0.25;MaterialAmbient=0,0,0;SpecularColor=1,1,1,1;Cubemap=Textures/EnvSpecular.dds;VertexLighting=False;DynamicLightNormalMapping=True;" />
+        </Material>
+    </Materials>
+</root>

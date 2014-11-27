@@ -1,0 +1,84 @@
+<root>
+  <info createdby="vForge version 2014.1.0.1" />
+  <header version="0" name="BrownHorse" description="" category="" convertible="True" autosavebinary="True" relativefilenames="False" />
+  <thumbnail type="jpg" size="1651">/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAEAAQADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5UooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//2Q==</thumbnail>
+  <shape class="EntityShape">
+    <property name="ModelFile" value="Models/BrownHorse.model" />
+    <property name="CustomMaterialSet" value="&lt;None&gt;" />
+    <property name="EntityClass" value="VisBaseEntity_cl" />
+    <property name="ClassDefinitionTemplate" value="" />
+    <property name="EntityPropertyString" value="" />
+    <property name="ScaleX" value="1" />
+    <property name="ScaleY" value="1" />
+    <property name="ScaleZ" value="1" />
+    <property name="UniformScaling" value="1" />
+    <property name="NavMeshUsage" value="IncludeInNavMesh" />
+    <property name="VisibleBitmask" value="4294967295" />
+    <property name="NearClipDistance" value="0" />
+    <property name="FarClipDistance" value="0" />
+    <property name="RenderOrderPriority" value="0" />
+    <property name="CastDynamicShadows" value="True" />
+    <property name="CastStaticShadows" value="False" />
+    <property name="LightInfluenceBitmask" value="1" />
+    <property name="LightGridSampleOfs" value="0,0,0" />
+    <property name="AmbientColor" value="0,0,0,255" />
+    <property name="ShowLightgridWidget" value="False" />
+    <property name="ObjectKey" value="" />
+    <property name="Visible" value="True" />
+    <property name="Position" value="0,0,0" />
+    <property name="Orientation" value="0,0,0" />
+    <property name="Scaling" value="1,1,1" />
+    <property name="TextLabel" value="" />
+    <property name="ShapeName" value="BrownHorse" />
+    <property name="UserDataString" value="" />
+    <property name="ExportShape" value="True" />
+    <property name="UniqueID" value="16127477955961028660" />
+    <component class="vHavokBehaviorComponent" paramstring="ComponentID=;m_projectPath=;m_projectName=HavokAnimationStudio\092Export\092T7Runner.hkt;m_characterName=BrownHorse.hkt;m_behaviorName=BrownHorseBehavior.hkt;m_enableRagdoll=False;m_useBehaviorWorldFromModel=False;" visible="True" serializable="True" editable="True" removable="True" />
+    <shape class="BoneProxyShape">
+      <property name="BoneName" value="Bip01 Spine" />
+      <property name="ObjectKey" value="" />
+      <property name="Visible" value="True" />
+      <property name="Position" value="1.145584,35.79021,121.4977" />
+      <property name="Orientation" value="-89.08264,-1.592548,-89.9592" />
+      <property name="Scaling" value="1,1,1" />
+      <property name="TextLabel" value="" />
+      <property name="ShapeName" value="Bip01 Spine" />
+      <property name="UserDataString" value="" />
+      <property name="ExportShape" value="True" />
+      <property name="UniqueID" value="16127477955961028659" />
+      <shape class="EntityShape">
+        <property name="ModelFile" value="Models/EnemyRider.model" />
+        <property name="CustomMaterialSet" value="&lt;None&gt;" />
+        <property name="EntityClass" value="VisBaseEntity_cl" />
+        <property name="ClassDefinitionTemplate" value="" />
+        <property name="EntityPropertyString" value="" />
+        <property name="ScaleX" value="1" />
+        <property name="ScaleY" value="1" />
+        <property name="ScaleZ" value="1" />
+        <property name="UniformScaling" value="1" />
+        <property name="NavMeshUsage" value="IncludeInNavMesh" />
+        <property name="VisibleBitmask" value="4294967295" />
+        <property name="NearClipDistance" value="0" />
+        <property name="FarClipDistance" value="0" />
+        <property name="RenderOrderPriority" value="0" />
+        <property name="CastDynamicShadows" value="True" />
+        <property name="CastStaticShadows" value="False" />
+        <property name="LightInfluenceBitmask" value="1" />
+        <property name="LightGridSampleOfs" value="0,0,0" />
+        <property name="AmbientColor" value="200,200,200,255" />
+        <property name="ShowLightgridWidget" value="False" />
+        <property name="ObjectKey" value="" />
+        <property name="Visible" value="True" />
+        <property name="Position" value="1.546722,13.40266,62.3721" />
+        <property name="Orientation" value="0.992427,0.3830996,-0.1220419" />
+        <property name="Scaling" value="1,1,1" />
+        <property name="TextLabel" value="" />
+        <property name="ShapeName" value="EnemyRider" />
+        <property name="UserDataString" value="" />
+        <property name="ExportShape" value="True" />
+        <property name="UniqueID" value="16127477955961028658" />
+        <component class="vHavokBehaviorComponent" paramstring="ComponentID=;m_projectPath=;m_projectName=HavokAnimationStudio\092Export\092T7Runner.hkt;m_characterName=EnemyRider.hkt;m_behaviorName=EnemyRiderBehavior.hkt;m_enableRagdoll=False;m_useBehaviorWorldFromModel=False;" visible="True" serializable="True" editable="True" removable="True" />
+      </shape>
+    </shape>
+  </shape>
+</root>

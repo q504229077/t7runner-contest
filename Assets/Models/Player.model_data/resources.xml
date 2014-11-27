@@ -1,0 +1,14 @@
+<root>
+    <Resources Version="1" Count="10" PathType="Project">
+        <Resource Manager="FILE" Filename="Models/Player.model_data\materials.xml" OwnerRes="9" Size="1810" />
+        <Resource Manager="EffectLibs" Filename="Shaders\MobileShadersFakeSpecular.ShaderLib" Size="2277312" />
+        <Resource Manager="Textures" Filename="Textures\EnvSpecular.dds" CustomInt="3,0" Size="393216" />
+        <Resource Manager="Textures" Filename="Textures\Face01.dds" CustomInt="1,64" Size="348160" />
+        <Resource Manager="Textures" Filename="Textures\Face01_n.dds" CustomInt="1,0" Size="348160" />
+        <Resource Manager="Textures" Filename="Textures\Face01_s.dds" CustomInt="1,0" Size="21760" />
+        <Resource Manager="Textures" Filename="Textures\Player01.dds" CustomInt="1,64" Size="5570560" />
+        <Resource Manager="Textures" Filename="Textures\Player01_n.dds" CustomInt="1,0" Size="5570560" />
+        <Resource Manager="Textures" Filename="Textures\Player01_s.dds" CustomInt="1,0" Size="5570560" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="Models/Player.model" CustomInt="1,2" Size="112" />
+    </Resources>
+</root>

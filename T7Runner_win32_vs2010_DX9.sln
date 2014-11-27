@@ -1,0 +1,40 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T7RunnerAppDX9", "Source\T7RunnerApp\T7RunnerAppDX9_win32_vs2010.vcxproj", "{E39A0EDD-1B87-4495-A03B-D8F24FDDB56A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DEFDC565-A96E-4AC0-9C21-BBD080E71634} = {DEFDC565-A96E-4AC0-9C21-BBD080E71634}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T7RunnerEnginePluginDX9", "Source\T7RunnerEnginePlugin\T7RunnerEnginePluginDX9_win32_vs2010.vcxproj", "{DEFDC565-A96E-4AC0-9C21-BBD080E71634}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vision", "Vision", "{7063C7E1-813E-4886-B313-352CD31EDD1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{607C63A0-B2B1-4D51-B474-50CA4144BD90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{EB7A7D45-5C78-4038-9E9A-046B6812B38F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|win32 = Debug|win32
+		Dev|win32 = Dev|win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E39A0EDD-1B87-4495-A03B-D8F24FDDB56A}.Debug|win32.ActiveCfg = Debug|win32
+		{E39A0EDD-1B87-4495-A03B-D8F24FDDB56A}.Debug|win32.Build.0 = Debug|win32
+		{E39A0EDD-1B87-4495-A03B-D8F24FDDB56A}.Dev|win32.ActiveCfg = Dev|win32
+		{E39A0EDD-1B87-4495-A03B-D8F24FDDB56A}.Dev|win32.Build.0 = Dev|win32
+		{DEFDC565-A96E-4AC0-9C21-BBD080E71634}.Debug|win32.ActiveCfg = Debug|win32
+		{DEFDC565-A96E-4AC0-9C21-BBD080E71634}.Debug|win32.Build.0 = Debug|win32
+		{DEFDC565-A96E-4AC0-9C21-BBD080E71634}.Dev|win32.ActiveCfg = Dev|win32
+		{DEFDC565-A96E-4AC0-9C21-BBD080E71634}.Dev|win32.Build.0 = Dev|win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{607C63A0-B2B1-4D51-B474-50CA4144BD90} = {7063C7E1-813E-4886-B313-352CD31EDD1C}
+		{EB7A7D45-5C78-4038-9E9A-046B6812B38F} = {607C63A0-B2B1-4D51-B474-50CA4144BD90}
+		{DEFDC565-A96E-4AC0-9C21-BBD080E71634} = {EB7A7D45-5C78-4038-9E9A-046B6812B38F}
+		{E39A0EDD-1B87-4495-A03B-D8F24FDDB56A} = {EB7A7D45-5C78-4038-9E9A-046B6812B38F}
+	EndGlobalSection
+EndGlobal

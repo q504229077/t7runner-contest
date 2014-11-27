@@ -1,0 +1,10 @@
+<root>
+    <Resources Version="1" Count="6" PathType="Project">
+        <Resource Manager="FILE" Filename="Meshes/Rd_Fortification03.VMESH_data\materials.xml" OwnerRes="5" Size="894" />
+        <Resource Manager="EffectLibs" Filename="Shaders\MobileShadersFakeSpecular.ShaderLib" Size="2277312" />
+        <Resource Manager="Textures" Filename="Textures\EnvSpecular.dds" CustomInt="3,0" Size="1024" />
+        <Resource Manager="Textures" Filename="Textures\Fortification_c.dds" CustomInt="1,64" Size="349544" />
+        <Resource Manager="Textures" Filename="Textures\Fortification_n.dds" CustomInt="1,0" Size="699088" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="Meshes/Rd_Fortification03.VMESH" CustomInt="1,1" Size="56" />
+    </Resources>
+</root>
