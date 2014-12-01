@@ -13,3 +13,9 @@ T7Runner是腾讯与Havok联合举办的《刀锋铁骑》移动游戏挑战赛�
 2. 编译过Plugin工程之后，可以在对应版本的vForge（Dev/Debug）中直接预览游戏。
 3. 在vForge中导出场景后可以通过T7Runner_android_arm_vs2010.sln工程编译生成游戏的APK。
 4. External\T7ArtResource目录下是腾讯《刀锋铁骑》提供的美术资源，包含人物、马匹、武器等的模型、贴图和动画。这些资源仅限于参与本次大赛所使用。
+
+
+活动链接：
+
+1. 腾讯游戏活动页面：http://t7.qq.com/act/a20140924campus/intro.htm
+2. Anarchy社区活动页面：http://anarchy.cn/portal.php?mod=topic&topicid=2
